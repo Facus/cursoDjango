@@ -33,3 +33,13 @@ class Adivinumero:
 
 	def descontarIntentos(self):
 		self.intentos -= 1
+
+
+def verificarNum():
+	correcto = True
+	while correcto:
+		try:		
+			valor = int(valor)
+			correcto = False
+		except Exception as error:
+			valor = input('\tIngresaste un valor erroneo. Vuelve a intentar: ')

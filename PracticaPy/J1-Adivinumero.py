@@ -1,6 +1,6 @@
 import random
 
-from clases import Adivinumero
+from clases import Adivinumero, verificarNum
 
 print("\n 	-------------------------")
 print(" 	Bienvenidos a Adivinumero")
